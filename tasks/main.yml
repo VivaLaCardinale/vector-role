@@ -4,7 +4,6 @@
     url: "https://vector.dev_{{ vector_version }}-1_amd64.deb"
     dest: "/tmp/vector.deb"
     mode: '0644'
-    validate_certs: no
 
 - name: Install Vector package
   ansible.builtin.apt:
